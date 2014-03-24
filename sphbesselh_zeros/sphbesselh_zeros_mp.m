@@ -1,5 +1,5 @@
 function [z,p] = sphbesselh_zeros_mp(order)
-%SPHBESSELH_ZEROS_MP finds zeros of spherical hankel function using the
+%SPHBESSELH_ZEROS_MP finds zeros/roots of spherical hankel function using the
 %Multiprecision Toolbox
 %
 %   Usage: [z,p] = sphbesselh_zeros_mp(order)
@@ -8,12 +8,11 @@ function [z,p] = sphbesselh_zeros_mp(order)
 %       order       - order of hankel function
 %
 %   Output parameters:
-%       FIXME: correct the following documentation
-%       z       - zeros ...
-%       p       - zeros ...
+%       z       - zeros/roots of spherical Bessel function
+%       p       - roots of spherical Bessel function
 %
-%   SPHBESSELH_ZEROS_MP(order) finds zeros for a spherical hankel functino of
-%   the specified order using the Multiprecision Toolbox
+%   SPHBESSELH_ZEROS_MP(order) finds zeros and roots for a spherical hankel
+%   functin of the specified order using the Multiprecision Toolbox
 %   (http://www.advanpix.com).
 %
 %   see also: sphbesselh, driving_function_imp_nfchoa
