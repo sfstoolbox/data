@@ -1,5 +1,6 @@
 % generate mat files with zeros of spherical Hankel function
-for order=86:1000
+%for order=86:1000
+for order=1
     [z,p] = sphbesselh_zeros_mp(order);
     z = double(z);
     p = double(p);
