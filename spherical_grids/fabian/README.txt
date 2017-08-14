@@ -6,7 +6,8 @@ FABIAN dummy head done at the Carl-von-Ossietzky Universitaet Oldenburg within
 the SEACEN collaboration. It contains 11345 points on a sphere with a hole in
 the -z direction.
 
-Documentation for the measurement will follow ...
+The measurement together with documentation is available at
+http://dx.doi.org/10.14279/depositonce-5718
 
 ================================================================================
 
